@@ -1,0 +1,61 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:url("./vw.jpg");
+  background-size: cover;
+  height:auto;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.main{
+  width:600px;
+  height:650px;
+  background:#6A00F4;
+  margin: 120px auto;
+  box-sizing: border-box;
+  padding:50px;
+  box-shadow: 0 0 20px #2D00F7;
+}
+
+.main h1{
+  text-align:center;
+  font-size:50px;
+  margin-bottom:20px;
+  color:#F8F9FA;
+  letter-spacing: 2px;
+  
+}
+
+.input,.area{
+  width: 100%;
+  padding:20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border:2px solid #e9eaea;
+  font-size: 14px;
+  border-radius:5px;
+  outline-color: yellow;
+}
+
+.name .input{
+  width: 49.7%;
+}
+
+.msg .area{
+  height:100px;
+}
+
+button{
+  background-color: #F20089;
+  border:none;
+  padding:15px 32px;
+  color:white;
+  text-align: center;
+  display:inline-block;
+  font-size: 17px;
+  outline-color:lightblue;
+}

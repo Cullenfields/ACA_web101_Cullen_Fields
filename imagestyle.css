@@ -20,6 +20,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,74,1) 19%, rgba
 .container {
   position: relative;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .image {
